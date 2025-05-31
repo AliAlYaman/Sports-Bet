@@ -9,7 +9,7 @@ interface HomeProps {
 export default function Register({ currentRoute}: HomeProps) {
     return (
         <div className="min-h-screen bg-gray-50">
-            <Head title="Home" />
+            <Head title="Register" />
 
             <Navbar currentRoute={currentRoute} />
             <RegisterComponent destinationTab='register'/>

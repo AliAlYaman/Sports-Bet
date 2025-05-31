@@ -138,7 +138,7 @@ const RegisterComponent: React.FC<RegisterProps> = ({destinationTab}) => {
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Email or Username
+                    Email
                   </label>
                   <input
                     type="email"

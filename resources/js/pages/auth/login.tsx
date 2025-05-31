@@ -9,7 +9,7 @@ interface LoginProps {
 export default function Login({ currentRoute}: LoginProps) {
     return (
         <div className="min-h-screen bg-gray-50">
-            <Head title="Home" />
+            <Head title="Login" />
 
             <Navbar currentRoute={currentRoute} />
             <RegisterComponent destinationTab='login'/>

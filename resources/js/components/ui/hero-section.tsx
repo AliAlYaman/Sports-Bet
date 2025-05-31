@@ -19,7 +19,7 @@ export default function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
-                href="/get-started"
+                href="/register"
                 className="bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-50 transition-colors duration-200 text-center"
               >
                 Get Started
