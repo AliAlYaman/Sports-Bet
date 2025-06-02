@@ -3,7 +3,7 @@ import { Link } from "@inertiajs/react"
 export default function HeroSection() {
   return (
     <div className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
           <div className="w-full space-y-8 mb-10 lg:mb-0">

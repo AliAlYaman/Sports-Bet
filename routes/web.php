@@ -7,6 +7,10 @@ Route::get('/', function () {
     return Inertia::render('home');
 })->name('home');
 
+
+Route::get('/live-betting', function () {
+    return Inertia::render('live-betting');
+})->name('live-betting');
 // Route::middleware(['auth', 'verified'])->group(function () {
 //     Route::get('dashboard', function () {
 //         return Inertia::render('dashboard');

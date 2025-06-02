@@ -1,11 +1,14 @@
+import AIAccuracyDashboard from '@/components/ai-accuracy-dashboard';
+import AIPredictionTable from '@/components/ai-prediction-table';
+import CTASection from '@/components/cta-section';
+import Footer from '@/components/footer';
+import TestimonialsSection from '@/components/testimonials-section';
+import LiveGamesSection from '@/components/ui/live-games-section';
+import UpcomingEvents from '@/components/upcoming-events';
 import { Head } from '@inertiajs/react';
 import HeroSection from '../components/ui/hero-section';
 import Navbar from '../components/ui/navbar';
 import SubNavigation from '../components/ui/sub-navigation';
-import LiveGamesSection from '@/components/ui/live-games-section';
-import AIAccuracyDashboard from '@/components/ai-accuracy-dashboard';
-import AIPredictionTable from '@/components/ai-prediction-table';
-import UpcomingEvents from '@/components/upcoming-events';
 
 interface HomeProps {
     currentRoute?: string;
@@ -18,7 +21,7 @@ export default function Home({ currentRoute, currentTab }: HomeProps) {
             <Head title="Home" />
 
             <Navbar currentRoute={currentRoute} />
-            <SubNavigation currentTab={currentTab || '/todays-games'} />
+            <SubNavigation currentTab={currentTab || '/'} />
             <HeroSection />
             <LiveGamesSection />
             <AIAccuracyDashboard />
@@ -26,6 +29,9 @@ export default function Home({ currentRoute, currentTab }: HomeProps) {
                 <AIPredictionTable />
             </div>
             <UpcomingEvents />
+            <TestimonialsSection />
+            <CTASection />
+            <Footer />
         </div>
     );
 }

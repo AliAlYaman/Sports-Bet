@@ -39,7 +39,7 @@ export default function Navbar({ currentRoute }: NavbarProps) {
 
   return (
     <nav className="bg-slate-900 border-b border-slate-800 w-full z-50 relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center flex-shrink-0">
