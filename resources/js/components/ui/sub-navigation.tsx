@@ -6,10 +6,9 @@ interface SubNavigationProps {
 
 export default function SubNavigation({ currentTab }: SubNavigationProps) {
   const tabs = [
-    { name: "Today's Games", href: "/" },
+    { name: "Today's Games", href: "/todays-games" },
     { name: "Live Betting", href: "/live-betting" },
-    { name: "AI Picks", href: "/ai-picks" },
-    { name: "Results", href: "/results" },
+    { name: "AI Picks & Results", href: "/ai-picks" },
     { name: "Leaderboard", href: "/leaderboard" },
     { name: "Stats", href: "/stats" },
   ];

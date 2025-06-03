@@ -1,7 +1,5 @@
-
 import Footer from '@/components/footer';
 import { Head } from '@inertiajs/react';
-import HeroSection from '../components/ui/hero-section';
 import Navbar from '../components/ui/navbar';
 import SubNavigation from '../components/ui/sub-navigation';
 import LiveBettingPage from '@/components/live-betting/live-betting-sub-navigation';
